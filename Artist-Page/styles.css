@@ -20,6 +20,7 @@ header {
   align-items: center;
   padding: 30px 60px;
   color: #c7c2c2;
+  border-bottom: 1px dotted;
 }
 header div {
   font-size: 24px;
@@ -67,4 +68,13 @@ button {
   height: 180px;
   object-fit: inherit;
   border-radius: 100px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  text-align: center;
+  padding: 30px 60px;
+}
+.about-section p {
+  margin: 8px 0;
 }
