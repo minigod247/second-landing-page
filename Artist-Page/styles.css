@@ -103,8 +103,21 @@ h2 {
 
 /* QUOTE SECTION */
 .quote-section {
-  text-align: center;
-  padding: 5px 20px;
+  text-align: right;
+  padding: 0 25px;
   margin-bottom: 55px;
+}
+
+/* CTA SECTION */
+.cta-section {
+  border-top: 1px dotted;
+  border-bottom: 1px dotted;
+  text-align: center;
+  padding: 20px 0;
+  margin: 40px 0;
+}
+.social-links {
+  align-items: center;
+  justify-content: center;
 }
 
