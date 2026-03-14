@@ -92,7 +92,7 @@ h2 {
   grid-template-columns: auto;
   gap: 16px;
   padding: 30px 10px;
-  margin-bottom: 80px;
+  margin-bottom: 15px;
 }
 
 .artist-img img {
@@ -100,3 +100,11 @@ h2 {
   object-fit: cover;
   border-radius: 4px;
 }
+
+/* QUOTE SECTION */
+.quote-section {
+  text-align: center;
+  padding: 5px 20px;
+  margin-bottom: 55px;
+}
+
