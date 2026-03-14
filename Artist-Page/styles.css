@@ -15,18 +15,20 @@ body {
 
 /* HEADER */
 header {
-  border: 2px solid yellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 40px;
+  padding: 30px 60px;
   color: #c7c2c2;
 }
 header div {
   font-size: 24px;
+  background: #c7c2c2;
+  color: #1a1a1a;
+  padding: 20px 10px;
+  border-radius: 100px;
 }
 ul {
-  border: 2px solid green;
   list-style: none;
   display: flex;
   padding: 0;
@@ -42,3 +44,27 @@ main {
   flex: 1;
 }
 
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 50px;
+  gap: 80px;
+}
+h1 {
+  font-size: 60px;
+}
+button {
+  background: grey;
+  color: #e6e6e6;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hero-img img {
+  height: 180px;
+  object-fit: inherit;
+  border-radius: 100px;
+}
