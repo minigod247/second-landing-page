@@ -57,16 +57,17 @@ h1 {
   font-size: 60px;
 }
 button {
-  background: grey;
-  color: #e6e6e6;
+  background: #c7c2c2;
+  color: #1a1a1a;
   padding: 5px 10px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: 600;
 }
 .hero-img img {
   height: 180px;
-  object-fit: inherit;
+  object-fit: cover;
   border-radius: 100px;
 }
 
@@ -77,4 +78,25 @@ button {
 }
 .about-section p {
   margin: 8px 0;
+}
+
+/* MUSIC SECTION */
+.music-section {
+  margin: 30px 10px;
+}
+h2 {
+  text-align: center;
+}
+.music-section-songs {
+  display: flex;
+  grid-template-columns: auto;
+  gap: 16px;
+  padding: 30px 10px;
+  margin-bottom: 80px;
+}
+
+.artist-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
