@@ -29,8 +29,8 @@ GitHub
 
 # Preview
 
-![Project Screenshot] (Screenshots/artist-page-screenshot.jpeg)
+![Project Screenshot](Screenshots/artist-page-screenshot.jpeg)
 
 # Live demo
 
-https://minigod247.github.io/second-landing-page/
+[Live Demo](https://minigod247.github.io/second-landing-page/)
